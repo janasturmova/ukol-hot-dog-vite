@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+
+.topping--selected {
+  background-color:  rgb(221, 206, 186);
+}
+
+.container {
+  padding: 0;
+  width: 500px;
+  margin: 50px auto;
+}
+
+.topping {
+  padding: 0;
+  display: grid;
+  grid-template-columns: 250px 250px;
+  justify-items: center;
+  border-bottom: 1px solid gray;
+}
